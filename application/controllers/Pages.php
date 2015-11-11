@@ -16,6 +16,8 @@ class Pages extends CI_Controller {
 
 	public function price()
 	{
+		$data['title'] = "Preise";
+
 		$this->load->view('template/header', $data);
 		$this->load->view('price', $data);
 		$this->load->view('template/footer', $data);

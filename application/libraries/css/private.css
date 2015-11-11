@@ -1,0 +1,92 @@
+/*!
+ * Copyright 2015 Pascal Steiner
+ * OPEN Source
+ */
+
+/*
+ * Custom Color
+ */
+
+.wine.lighten-5 {
+  background-color: #f3e8ea !important; }
+
+.wine-text.text-lighten-5 {
+  color: #f3e8ea !important; }
+
+.wine.lighten-4 {
+  background-color: #dbbcc2 !important; }
+
+.wine-text.text-lighten-4 {
+  color: #dbbcc2 !important; }
+
+.wine.lighten-3 {
+  background-color: #c3909a !important; }
+
+.wine-text.text-lighten-3 {
+  color: #c3909a !important; }
+
+.wine.lighten-2 {
+  background-color: #ab6372 !important; }
+
+.wine-text.text-lighten-2 {
+  color: #ab6372 !important; }
+
+.wine.lighten-1 {
+  background-color: #93374a !important; }
+
+.wine-text.text-lighten-1 {
+  color: #93374a !important; }
+
+.wine {
+  background-color: #872136 !important; }
+
+.wine-text {
+  color: #872136 !important; }
+
+.wine.darken-1 {
+  background-color: #791d30 !important; }
+
+.wine-text.text-darken-1 {
+  color: #791d30 !important; }
+
+.wine.darken-2 {
+  background-color: #6c1a2b !important; }
+
+.wine-text.text-darken-2 {
+  color: #6c1a2b !important; }
+
+.wine.darken-3 {
+  background-color: #5e1725 !important; }
+
+.wine-text.text-darken-3 {
+  color: #5e1725 !important; }
+
+.wine.darken-4 {
+  background-color: #43101b !important; }
+
+.wine-text.text-darken-4 {
+  color: #43101b !important; }
+
+.wine.accent-1 {
+  background-color: #c4304f !important; }
+
+.wine-text.text-accent-1 {
+  color: #c4304f !important; }
+
+.wine.accent-2 {
+  background-color: #9b263e !important; }
+
+.wine-text.text-accent-2 {
+  color: #9b263e !important; }
+
+.wine.accent-3 {
+  background-color: #731c2e !important; }
+
+.wine-text.text-accent-3 {
+  color: #731c2e !important; }
+
+.wine.accent-4 {
+  background-color: #4a121d !important; }
+
+.wine-text.text-accent-4 {
+  color: #4a121d !important; }
