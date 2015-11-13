@@ -86,3 +86,4 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 define('JS_DIR', '/Steiner/application/libraries/js/');
 define('CSS_DIR', '/Steiner/application/libraries/css/');
+define('IMG_DIR', '/Steiner/application/libraries/img/');
