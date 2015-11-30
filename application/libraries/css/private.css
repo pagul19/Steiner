@@ -13,15 +13,35 @@ main {
   flex: 1 0 auto;
 }
 
-.vertical {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.logoImage {
+  background-image: url('../img/STE_Stempel-white-short.png');
+  background-size: 240px 65px;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 240px;
+  height: 64px;
 }
 
-.center-vertical {
-  align-self: center;
+@media only screen and (max-width : 1270px) {
+ .img-footer {
+    background-image: url('../img/STE_Stempel-red.png');
+    background-size: 180px 110px;
+    background-position: center;
+    width: 180px;
+    height: 110px;
+    margin: 0 auto;
+
+ }
+}
+@media only screen and (min-width : 1271px) {
+ .img-footer {
+    background-image: url('../img/STE_Stempel-red.png');
+    background-size: 260px 130px;
+    background-position: center;
+    width: 260px;
+    height: 130px;
+
+ }
 }
 
 /*

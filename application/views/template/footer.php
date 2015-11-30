@@ -1,26 +1,30 @@
+			</div>	
+		</div>
+		</main>
 		<!--  Fusszeile  -->
 		<!-- Contact, undertitle, Links -->
 		<footer class="page-footer grey">
 			<div class="container">
 				<div class="row">
 
-					<div class="col l7 s12 vertical">
-						<h5 class="center-align wine-text center-vertical">UNABHÄNGIG &mdash; KOMPETENT &mdash; PERSÖNLICH</h5>
+					<div class="col l7 m12">
+						<br class="hide-on-med-and-down"><br class="hide-on-med-and-down">
+						<h5 class="center-align wine-text">UNABHÄNGIG &mdash; KOMPETENT &mdash; PERSÖNLICH</h5>
 					</div>
 
-					<div class="col l3 s12">
-						<ul>
-							<li><a class="black-text" href="mailto:info@lorenz-steiner.ch"><img src="<?php echo IMG_DIR;?>STE_Stempel.png" height="130px" width="260px"></a></li>
+					<div class="col l2 s12">
+						<ul class="">
+							<li><a class="black-text left-align" href="mailto:info@lorenz-steiner.ch"><div class="img-footer" alt="Kontaktformular"></div></a></li>
 						</ul>
 					</div>
 
-					<div class="col  l2 s12">
-						<h5 class="wine-text right-align">Links</h5>
-						<ul class="right-align">
-							<li><a class="wine-text right-align" href="#!">Impressum</a></li>
-							<li><a class="wine-text right-align" href="#!">AGB</a></li>
-							<li><a class="wine-text right-align" href="#!">Partner</a></li>
-							<li><a class="wine-text right-align" href="#!">Login</a></li>
+					<div class="col offset-l1 l2 s12 fix-linkFooter">
+						<h5 class="wine-text center-align">Links</h5>
+						<ul class="center-align">
+							<li><a class="wine-text center-align" href="#!">Impressum</a></li>
+							<li><a class="wine-text center-align" href="#!">AGB</a></li>
+							<li><a class="wine-text center-align" href="#!">Partner</a></li>
+							<li><a class="wine-text center-align" href="#!">Login</a></li>
 						</ul>
 					</div>
 
