@@ -7,10 +7,16 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background: url(../img/background_gradient.gif) repeat-x
 }
 
 main {
   flex: 1 0 auto;
+}
+
+.contactImage {
+  width: 260px;
+  height: 130px;
 }
 
 .logoImage {
@@ -132,3 +138,5 @@ main {
 .wine-text.text-accent-4 {
   color: #4a121d !important; }
 
+.whitegray {
+  background-color: #F7F7F7 !important; }

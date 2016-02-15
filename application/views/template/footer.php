@@ -3,22 +3,16 @@
 		</main>
 		<!--  Fusszeile  -->
 		<!-- Contact, undertitle, Links -->
-		<footer class="page-footer grey">
+		<footer class="page-footer transparent">
 			<div class="container">
 				<div class="row">
 
-					<div class="col l7 m12">
+					<div class="col offset-l1 l7 m12">
 						<br class="hide-on-med-and-down"><br class="hide-on-med-and-down">
 						<h5 class="center-align wine-text">UNABHÄNGIG &mdash; KOMPETENT &mdash; PERSÖNLICH</h5>
 					</div>
 
-					<div class="col l2 s12">
-						<ul class="">
-							<li><a class="black-text left-align" href="mailto:info@lorenz-steiner.ch"><div class="img-footer" alt="Kontaktformular"></div></a></li>
-						</ul>
-					</div>
-
-					<div class="col offset-l1 l2 s12 fix-linkFooter">
+					<div class="col offset-l2 l2 s12 fix-linkFooter">
 						<h5 class="wine-text center-align">Links</h5>
 						<ul class="center-align">
 							<li><a class="wine-text center-align" href="#!">Impressum</a></li>
@@ -27,7 +21,6 @@
 							<li><a class="wine-text center-align" href="#!">Login</a></li>
 						</ul>
 					</div>
-
 				</div>
 			</div>
 			<div class="footer-copyright">

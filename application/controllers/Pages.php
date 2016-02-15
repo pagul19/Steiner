@@ -6,44 +6,27 @@ class Pages extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
-
 	}
-
 
 	public function index()
 	{
-		$data['title'] = "Homepage";
+		Pages::view();
+	}
+
+	public function view($page = 'home') 
+	{
+
+		if ( !file_exists(APPPATH.'/views/pages/'.$page.'.php'))
+		{
+			show_404();
+		}
+
+		$data['title'] = ucfirst($page);
 		$data['query'] = $this->ContentView->getContentByTitle($data['title']);
 
 		$this->load->view('template/header', $data);
-		$this->load->view('pages/home', $data);
+		$this->load->view('pages/'.$page, $data);
 		$this->load->view('template/footer', $data);
 	}
 
-	public function price()
-	{
-		$data['title'] = "Preise";
-
-		$this->load->view('template/header', $data);
-		$this->load->view('pages/price', $data);
-		$this->load->view('template/footer', $data);
-	}
-
-	public function impressum()
-	{
-		$data['title'] = "Impressum";
-
-		$this->load->view('template/header', $data);
-		$this->load->view('pages/impressum', $data);
-		$this->load->view('template/footer', $data);
-	}
-
-	public function agb()
-	{
-		$data['title'] = "Allgemeinen Geschäfts Bedingungen";
-
-		$this->load->view('template/header', $data);
-		$this->load->view('pages/price', $data);
-		$this->load->view('template/footer', $data);
-	}
 }

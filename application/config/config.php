@@ -391,7 +391,7 @@ $config['sess_regenerate_destroy'] = FALSE;
 |
 */
 $config['cookie_prefix']	= 'chempe';
-$config['cookie_domain']	= 'lorenz-steiner.ch';
+$config['cookie_domain']	= 'localhost';
 $config['cookie_path']		= '/';
 $config['cookie_secure']	= FALSE;
 $config['cookie_httponly'] 	= FALSE;

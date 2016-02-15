@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<nav class="z-depth-1 wine" role="navigation">
 				<div class="nav-wrapper container">
 					<a href="<?php echo site_url('pages'); ?>" class="brand-logo left hide-on-med-and-down black-text"><div class="logoImage"></div></a>
-					<a href="<?php echo site_url('pages'); ?>" class="brand-logo center show-on-medium-and-down hide-on-large-only">LOGO</a>
+					<a href="<?php echo site_url('pages'); ?>" class="brand-logo center show-on-medium-and-down hide-on-large-only"><div class="logoImage"></div></a>
 					<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 					<ul class="right hide-on-med-and-down">
 						<b>
@@ -43,16 +43,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>				
 			</nav>
 		</header>
-		<main class="container">
+		<main class="container white">
 			<div class="row">
-				<div class="col l3">
-					<div class="card wine lighten-2">
+				<div class="col s8 l3">
+					<div class="card wine">
+						<div class="card-image">
+							<img src="<?php echo IMG_DIR;?>lorenzP-medium.jpg">
+						</div>
 						<div class="card-content">
-							Hier kommt ein Bild von Lorenz.<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+							<img class="contactImage" src="<?php echo IMG_DIR;?>STE_Stempel.png">
 						</div>
 					</div>
 				</div>
-				<div class="col l9">		
+				<div class="col s12 l9">		
 
 
 
