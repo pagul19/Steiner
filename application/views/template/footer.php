@@ -3,35 +3,33 @@
 		</main>
 		<!--  Fusszeile  -->
 		<!-- Contact, undertitle, Links -->
-		<footer class="page-footer transparent">
-			<div class="container">
+		<footer class="page-footer transparent ">
+			<div class="container wine z-depth-3">
 				<div class="row">
 
 					<div class="col offset-l1 l7 m12">
-						<br class="hide-on-med-and-down"><br class="hide-on-med-and-down">
-						<h5 class="center-align wine-text">UNABHÄNGIG &mdash; KOMPETENT &mdash; PERSÖNLICH</h5>
+						<br class="hide-on-med-and-down">
+						<h5 class="center-align black-text">UNABHÄNGIG &mdash; KOMPETENT &mdash; PERSÖNLICH</h5>
+						<h6 class="center-align black-text">Sicher Versichert</h6>
 					</div>
 
 					<div class="col offset-l2 l2 s12 fix-linkFooter">
-						<h5 class="wine-text center-align">Links</h5>
+						<h5 class="black-text center-align">Links</h5>
 						<ul class="center-align">
-							<li><a class="wine-text center-align" href="#!">Impressum</a></li>
-							<li><a class="wine-text center-align" href="#!">AGB</a></li>
-							<li><a class="wine-text center-align" href="#!">Partner</a></li>
-							<li><a class="wine-text center-align" href="#!">Login</a></li>
+							<li><a class="black-text center-align" href="#!">Impressum</a></li>
+							<li><a class="black-text center-align" href="#!">AGB</a></li>
+							<li><a class="black-text center-align" href="<?php echo site_url('authenticate');?>">Login</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="footer-copyright">
+			<div class="footer-copyright grey darken-2">
 				<div class="container">
 					<div class="black-text left-align left">
 					&copy; 2015 by Lorenz Steiner
 					</div>
 					<div class="black-text right-align right">
-					Made by Pascal Steiner using 
-					<a class="orange-text text-lighten-1" href="http://materializecss.com">Materialize</a>
-					and <a class="orange-text text-lighten-1" href="https://codeigniter.com/">Codeigniter</a>.
+					EasyCMS v0.0.1 - entwickelt von Pascal Steiner.
 					</div>
 				</div>
 			</div>

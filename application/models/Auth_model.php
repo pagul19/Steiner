@@ -5,7 +5,6 @@ class Auth_model extends CI_Model {
 
 	public function __contruct(){
 		parent::__contruct();
-		$this->load->database();
 	}
 
 	public function getUserData($username = False){

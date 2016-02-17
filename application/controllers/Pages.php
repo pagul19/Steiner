@@ -18,7 +18,7 @@ class Pages extends CI_Controller {
 
 		if ( !file_exists(APPPATH.'/views/pages/'.$page.'.php'))
 		{
-			show_404();
+			show_error("The page you requested was not found.", 404, "Upps, das hat nicht geklappt.");
 		}
 
 		$data['title'] = ucfirst($page);

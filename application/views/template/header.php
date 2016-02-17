@@ -26,32 +26,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<b>
 						<li><a href="<?php echo site_url('pages'); ?>" class="white-text">Home</a></li>
 						<li><a href="<?php echo site_url('news'); ?>" class="white-text ">News</a></li>
-						<li><a href="<?php echo site_url('services'); ?>" class="white-text">Dienstleistungen</a></li>
+						<li><a href="<?php echo site_url('pages/services'); ?>" class="white-text">Dienstleistungen</a></li>
 						<li><a href="<?php echo site_url('pages/price'); ?>" class="white-text">Preise</a></li>
-						<li><a href="<?php echo site_url('about'); ?>" class="white-text">Über Lorenz-Steiner.ch</a></li>
+						<li><a href="<?php echo site_url('pages/about'); ?>" class="white-text">Über Lorenz-Steiner.ch</a></li>
 						</b>
 					</ul>
 					<ul class="side-nav wine" id="nav-mobile">
 						<b>
 						<li><a href="<?php echo site_url('pages'); ?>" class="white-text">Home</a></li>
 						<li><a href="<?php echo site_url('news'); ?>" class="white-text">News</a></li>
-						<li><a href="<?php echo site_url('services'); ?>" class="white-text">Dienstleistungen</a></li>
+						<li><a href="<?php echo site_url('pages/services'); ?>" class="white-text">Dienstleistungen</a></li>
 						<li><a href="<?php echo site_url('pages/price'); ?>" class="white-text">Preise</a></li>
-						<li><a href="<?php echo site_url('about'); ?>" class="white-text">Über Lorenz-Steiner.ch</a></li>
+						<li><a href="<?php echo site_url('pages/about'); ?>" class="white-text">Über Lorenz-Steiner.ch</a></li>
 						</b>
 					</ul>
 				</div>				
 			</nav>
 		</header>
-		<main class="container white">
+		<main class="container white z-depth-4">
 			<div class="row">
-				<div class="col s8 l3">
-					<div class="card wine">
+				<div class="col l3 hide-on-med-and-down ">
+					<div class="card wine lighten-3 z-depth-2">
 						<div class="card-image">
 							<img src="<?php echo IMG_DIR;?>lorenzP-medium.jpg">
 						</div>
 						<div class="card-content">
-							<img class="contactImage" src="<?php echo IMG_DIR;?>STE_Stempel.png">
+							Lorenz Steiner<br>Finanz- und Versicherungsberatung<br><br>Belchenstrasse 7<br>CH-4853 Riken AG
+							<br><br>Fon 	+41 (0)62 926 20 22<br>Fax 	+41 (0)62 926 12 23<br>Mobile 	+41 (0)79 332 75 39<br><br>
+							info@lorenz-steiner.ch<br>www.lorenz-steiner.ch
 						</div>
 					</div>
 				</div>

@@ -10,6 +10,10 @@ class Authenticate extends CI_Controller {
 		$this->load->library('session');
 	}
 
+	public function index() {
+		Authenticate::showForm();
+	}
+
 	public function showForm($message = "") {
 		$data['title'] = "Login";
 		$data['message'] = $message;
@@ -20,22 +24,25 @@ class Authenticate extends CI_Controller {
 	}
 
 	public function login() {
-		var_dump($this->input->post('username'));
 
-		// if ($this->input->post('username')){
+		if (!$this->input->post('username')){
+			Authenticate::showForm("No Username given, Please enter a Username.");
+		}
 
-		// }
-
-		// $quary = $this->Auth->getUserData($this->input->post('username'));
-		// if (password_verify($this->input->post('password'), $quary['password'])){
-		// 	redirect('/admin');
-		// } else {
-		// 	Authenticate::showForm("Invalid Login attempt");
-		// }
+		$quary = $this->Auth->getUserData($this->input->post('username'));
+		if (password_verify($this->input->post('password'), $quary['password'])){
+			redirect('/admin');
+		} else {
+			Authenticate::showForm("Invalid Login attempt");
+		}
 	}
 
 	public function logout() {
 
+	}
+
+	public function pw() {
+		echo password_hash($this->input->get('pw'), PASSWORD_DEFAULT);
 	}
 
 }

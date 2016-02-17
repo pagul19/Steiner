@@ -1,6 +1,6 @@
 <h1 class="wine-text "> Login </h1>
 
-<div class="stateMSG"><?php echo $message; ?></div>
+<div id="msg" class="stateMSG text-red"><?php echo $message; ?></div><br>
 
 <div class="row">
 	<?php echo form_open('authenticate/login', array('class', 'col s12'));?>
