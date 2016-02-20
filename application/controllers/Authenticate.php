@@ -15,6 +15,9 @@ class Authenticate extends CI_Controller {
 	}
 
 	public function showForm($message = "") {
+		if ($this->Auth->loggedIn()) {
+			redirect('/admin');
+		}
 		$data['title'] = "Login";
 		$data['message'] = $message;
 
@@ -31,6 +34,7 @@ class Authenticate extends CI_Controller {
 
 		$quary = $this->Auth->getUserData($this->input->post('username'));
 		if (password_verify($this->input->post('password'), $quary['password'])){
+			$this->Auth->setSession($quary);
 			redirect('/admin');
 		} else {
 			Authenticate::showForm("Invalid Login attempt");
@@ -38,11 +42,16 @@ class Authenticate extends CI_Controller {
 	}
 
 	public function logout() {
-
+		$this->session->sess_destroy();
+		redirect('/pages');
 	}
 
 	public function pw() {
 		echo password_hash($this->input->get('pw'), PASSWORD_DEFAULT);
+	}
+
+	public function sesDe() {
+		$this->session->sess_destroy();
 	}
 
 }

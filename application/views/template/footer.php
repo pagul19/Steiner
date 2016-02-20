@@ -18,7 +18,11 @@
 						<ul class="center-align">
 							<li><a class="black-text center-align" href="#!">Impressum</a></li>
 							<li><a class="black-text center-align" href="#!">AGB</a></li>
-							<li><a class="black-text center-align" href="<?php echo site_url('authenticate');?>">Login</a></li>
+							<?php if (!$this->Auth->loggedIn()) { ?>
+							<li><a class="black-text center-align" href="<?php echo site_url('authenticate'); ?>">Login</a></li>
+							<?php } else { ?>
+							<li><a class="black-text center-align" href="<?php echo site_url('admin');?>">Admin</a></li>
+							<?php } ?>
 						</ul>
 					</div>
 				</div>
